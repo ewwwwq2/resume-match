@@ -1,0 +1,1 @@
+import{a_ as t}from"./index-C5XiZVbP.js";function n(){return t.get("/system/configs")}function a(s){return t.put("/system/configs/batch",s)}function i(){return t.get("/system/configs/evaluation-weights")}export{i as a,a as b,n as g};

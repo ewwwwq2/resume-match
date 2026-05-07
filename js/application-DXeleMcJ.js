@@ -1,0 +1,1 @@
+import{a_ as a}from"./index-C5XiZVbP.js";function n(t,i){return a.post(`/applications/submit?positionId=${t}&resumeFileId=${i}`)}function s(t){return a.get("/hr/applications",t)}function o(t,i){return a.put(`/hr/applications/${t}/status`,null,{params:{status:i}})}function u(t=1,i=20){return a.get("/applications/my",{page:t,size:i})}export{s as a,u as g,n as s,o as u};
